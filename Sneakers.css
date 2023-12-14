@@ -1,0 +1,371 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgba(216, 22, 22, 0.87);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    width: 40px;
+    height: auto;
+}
+
+.Banner {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom:53px;
+    right: 120px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 0px;
+    color: #373333;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    color: #373333;
+}
+
+button {
+    background-color: #373333;
+    color: white;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.Middenstuk {
+    width: 100%;
+    height: 50px;
+    margin-bottom:75px;
+    background-color: #373333;
+}
+
+.Middenstuk2 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(216, 22, 22, 0.87);
+}
+
+/* Alle stukken text over de schoenen (niet de html en css) in de volgende html pagina's komen van chatgpt af */
+
+.subcontainer {
+    height: 350px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
+
+.Nikelogo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.Nikelogo:hover {
+    background-color: #a7a6a683;
+}
+
+
+.Jordanlogo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.Jordanlogo:hover {
+    background-color: #a7a6a683;
+}
+
+.Adidaslogo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.Adidaslogo:hover {
+    background-color: #a7a6a683;
+}
+
+.Yeezylogo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.Yeezylogo:hover {
+    background-color: #a7a6a683;
+}
+
+.NewBalancelogo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.NewBalancelogo:hover {
+    background-color: #a7a6a683;
+}
+
+.MSCHFlogo {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.MSCHFlogo:hover {
+    background-color: #a7a6a683;
+}
+
+.Middenstuktitel {
+    display: flex;
+    text-align: center;
+    margin-top: 1160px;
+    margin-left: 40%;
+    position: absolute;
+    color: #fff;
+}
+
+.element {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border: 2px solid #373333
+}
+
+.Tekst {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.Tekst h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+
+.Tekst h5 {
+    font-size: 14px;
+    margin: 0;
+    color: #555;
+}
+
+.Rijschoenen {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    width: 280px;
+    height: 300px;
+    border: 4px solid #373333
+}
+
+.Banner2 {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+.Founders {
+    display: flex;
+    margin-top: 2425px;
+    margin-left: 33%;
+    position: absolute;
+}
+
+/* om dit volgende stuk te maken heb ik hulp gehad van een youtube filmpje */
+
+.Content1 {
+    width: 90px;
+    height: 300px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0,6s;
+}
+
+.Content1:hover {
+    opacity: 1;
+}
+
+.Content2 {
+    width: 90px;
+    height: 300px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0,6s;
+}
+
+.Content2:hover {
+    opacity: 1;
+}
+
+.Content3 {
+    width: 90px;
+    height: 300px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0,6s;
+}
+
+.Content3:hover {
+    opacity: 1;
+}
+
+.Content4 {
+    width: 90px;
+    height: 300px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0,6s;
+}
+
+.Content4:hover {
+    opacity: 1;
+}
+
+.Content5 {
+    width: 90px;
+    height: 300px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0,6s;
+}
+
+.Content5:hover {
+    opacity: 1;
+}
+
+.Content6 {
+    width: 90px;
+    height: 300px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0,6s;
+}
+
+.Content6:hover {
+    opacity: 1;
+}
+
+.Rijschoenen2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
+    width: 280px;
+    height: 300px;
+    border: 4px solid #373333
+}
+
+.Rijschoenen2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Rijschoenencontainer {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    overflow-x: auto;
+    flex-direction: row;
+    align-content: center;
+}
+
+.Rijschoenencontainer2 {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    overflow-x: auto;
+    flex-direction: row;
+    align-content: center;
+}
+ 
+footer {
+    background-color: #373333;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    margin-top: auto;
+}

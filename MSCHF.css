@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    background-size:fill;
+    overflow: auto;
+    background-image:url(resources/bigredbootsbackground.png);
+    background-repeat:no-repeat; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.MSCHFLogoHeader {
+    max-width: 50px;
+    height: 50px;
+    margin-left: 2,5%;
+    margin-top: 2%;
+}
+
+.Huisjeheader {
+    max-width: 20px;
+    height: 45px;
+    right: 10px;
+    margin-right: 40px;
+}
+
+.Headertekst {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#Infobox {
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 700px;
+    height: 720px;
+    background-color:rgba(228, 228, 228, 0.731);
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: cover;
+    color: black;
+    text-align: center;
+}
+
+footer {
+    background-color: #373333;
+    color: #fff;
+    text-align: center;
+    padding: 2.5px;
+    margin-top: auto;
+}

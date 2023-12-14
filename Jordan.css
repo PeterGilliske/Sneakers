@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background-image: url(resources/Jordansachtergrond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: 50% 65px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(168, 46, 46);
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.Jordan {
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.Jordantitel {
+    display: flex;
+    align-items: center;
+    margin-top: 0px; 
+    margin-right: 190px;
+    margin-bottom: -10px;
+}
+
+.Jordantitel img {
+    width: 250px;
+    height: auto;
+    align-content: center;
+}
+
+.Huisjeheader {
+    margin-right: 60px;
+}
+
+.Container {
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.Tekst1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 700px;
+    height: 200px;
+    background-color:rgba(228, 228, 228, 0.731);
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: cover;
+    color: black;
+    text-align: center;
+}
+
+.Plaatje1 {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(228, 228, 228, 0.731);
+    border: 5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+}
+
+.Plaatje1 img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+
+footer {
+    background-color: #373333;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    margin-top: auto;
+}
